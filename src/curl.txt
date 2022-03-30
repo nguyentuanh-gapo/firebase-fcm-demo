@@ -1,0 +1,11 @@
+curl --location --request POST 'https://fcm.googleapis.com/fcm/send' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: key=AAAAjEu3ths:APA91bHEXgk_XMTI1Z-OsfIU3U-A63GYCmlE68Id-55y4ZRbPTkxJhLWlfC02hGLnma8_uzEwTVEPpdwW7MAOjQXrJaWLYWrYcjGLyFWw_fvMFNiillvY2vBngqLRt5qsYGDUMyGNy9v' \
+--data-raw '{
+    "to": "c6x9TJu20y42U5aUQZ3m_7:APA91bFSutFceT7yHiTBdzdIGXR6PtG5fbtMD9bjGnAIbyTrxpCnb8h1u8MYsJ1X2jWdl8wZOxPc4i04pJu49mpnW_cI4_IZPolGQwSqIhIXDXY_uSst2xmqiHOFW_0Aj6o4NKaOfa4c",
+    "notification": {
+        "title": "example title",
+        "body": "example body",
+        "icon": "https://cdn-thumb-image-1.gapowork.vn/insecure/fill/616/616/ce/0/plain/https://image-1.gapowork.vn/images/815eee6e-6dd0-44c4-b15e-35dac050dda6.jpeg"
+    }
+}'
